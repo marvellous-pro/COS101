@@ -1,0 +1,11 @@
+name = input("student name:")
+transport = int(input("daily transport cost:"))
+feeding = int(input("daily feedimg cost"))
+days = int(input("days spent on campus"))
+weekly_expenses = int(input("other weekly expenses:"))
+weekly_total = (transport + feeding) * days
+weekly_total2 = weekly_total + weekly_expenses
+print(f"student name {name}")
+print(transport)
+print(feeding)
+print(weekly_total2)

@@ -1,0 +1,11 @@
+name=input("What is your full name?:")
+numb=input("What is your matriculation number?:")
+dept=input("Enter your programme:")
+lvl=input("Enter your level:")
+reason=input("why did you decide to learn programming?:")
+print(f"full_name = {name}")
+print(f"matric number = {numb}")
+print(f"programme = {dept}")
+print(f"level = {lvl}")
+print(f"desired_reason = {reason}")
+
